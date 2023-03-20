@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color:#845EC2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.name{
+    padding: 12px;
+    width: 100%;
+    height: 40px;
+}
+.name h1{
+
+    text-align: center;
+    color: #845EC2;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.container{
+  
+    width:90vmin;
+    height: 530px;
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 0px 40px;
+    border-radius: 10px;
+    overflow: auto;
+    position: relative;
+}
+.input_head{
+    width: 100%;
+    height: 100px; 
+}
+#input{
+    width: 65%;
+    height: 35px;
+    margin-top: 22px;
+    border-radius: 12px;
+    border: 2px solid #845EC2;
+    margin-right: 15px;
+    padding-left: 13px;
+    font-size: 18px;
+    outline: #845EC2;
+
+}
+#btn{
+    width: 27%;
+    height: 35px;
+    margin-top: 5px;
+    background-color: #845EC2;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list{
+    width: 100%;
+    height: 385px;
+    overflow: auto;
+   
+ }
+ 
+.list::-webkit-scrollbar{
+    display: none;
+  }
+ .tab{
+    width: 100%;
+    border-collapse: collapse;
+    
+ }
+ .tab tr{
+   
+    height: 40px;
+    font-size: 21px;
+ }
+ .tab tr:nth-child(odd){
+    background-color: burlywood;
+ }
+ .tab tr td:first-child{
+    width: 20px;
+    padding: 13px;
+ }
+ .tab tr td:nth-child(2){
+    width: 40px;
+ }
+ .tab tr td:nth-child(3){
+          text-align: center;
+        width: 65%;
+        }
+ #check{
+    width: 15px;
+    height: 15px;
+ }
+ #edit{
+    cursor: pointer;
+    color: rgb(168, 145, 189);
+ }
+ #delet{
+    cursor: pointer;
+    color: red;
+ }
+ #error{
+    text-align: center;
+    color: red;
+ }
